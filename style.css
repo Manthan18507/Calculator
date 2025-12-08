@@ -12,10 +12,69 @@ body{
     padding: 20px;
 }
 #calculator{
-    width: 520px;
-    height: 320px;
+    width: 320px;
+    height: 520px;
     background-color: white;
     margin: 0 auto;
     border-radius: 5px;
-    box-shadow: 0 4px 8px  ;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#result{
+    height: 120px;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number{
+    background-color: #eaedef;
+}
+.empty{
+    background-color: transparent;
+}
+.number, .operator{
+    cursor: pointer;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 20px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: #9477af;
 }
